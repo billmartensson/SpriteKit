@@ -11,6 +11,8 @@
 		AB3F973B2582C2C400AF85E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3F973A2582C2C400AF85E7 /* ContentView.swift */; };
 		AB3F973D2582C2C700AF85E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3F973C2582C2C700AF85E7 /* Assets.xcassets */; };
 		AB3F97402582C2C700AF85E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3F973F2582C2C700AF85E7 /* Preview Assets.xcassets */; };
+		AB3F97492582C9BD00AF85E7 /* FancyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AB3F97482582C9BD00AF85E7 /* FancyScene.sks */; };
+		AB3F974C2582D19300AF85E7 /* GravityScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AB3F974B2582D19300AF85E7 /* GravityScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AB3F973C2582C2C700AF85E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB3F973F2582C2C700AF85E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB3F97412582C2C700AF85E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3F97482582C9BD00AF85E7 /* FancyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FancyScene.sks; sourceTree = "<group>"; };
+		AB3F974B2582D19300AF85E7 /* GravityScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GravityScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				AB3F97382582C2C400AF85E7 /* MySpritekitApp.swift */,
 				AB3F973A2582C2C400AF85E7 /* ContentView.swift */,
+				AB3F97482582C9BD00AF85E7 /* FancyScene.sks */,
+				AB3F974B2582D19300AF85E7 /* GravityScene.sks */,
 				AB3F973C2582C2C700AF85E7 /* Assets.xcassets */,
 				AB3F97412582C2C700AF85E7 /* Info.plist */,
 				AB3F973E2582C2C700AF85E7 /* Preview Content */,
@@ -128,6 +134,8 @@
 			files = (
 				AB3F97402582C2C700AF85E7 /* Preview Assets.xcassets in Resources */,
 				AB3F973D2582C2C700AF85E7 /* Assets.xcassets in Resources */,
+				AB3F97492582C9BD00AF85E7 /* FancyScene.sks in Resources */,
+				AB3F974C2582D19300AF85E7 /* GravityScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
