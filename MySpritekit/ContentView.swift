@@ -11,8 +11,10 @@ import SpriteKit
 struct ContentView: View {
     
     var scene: SKScene {
-        let scene = GravityScene(fileNamed: "GravityScene")!
+        //let scene = GravityScene(fileNamed: "GravityScene")!
         //let scene = GameScene(fileNamed: "FancyScene")!
+        let scene = MenuScene(fileNamed: "MenuScene")!
+        
         let screenwidth = UIScreen.main.bounds.width
         let screenheight = UIScreen.main.bounds.height
         scene.size = CGSize(width: (screenwidth/screenheight)*1000, height: 1000)
@@ -134,6 +136,21 @@ class GameScene : SKScene
             if(player.intersects(hinderitem))
             {
                 print("DEAD!")
+                
+                //let reveal = SKTransition.reveal(with: .down, duration: 1)
+                
+                let reveal = SKTransition.doorsOpenHorizontal(withDuration: 5)
+                
+                
+                let newscene = GravityScene(fileNamed: "GravityScene")!
+                let screenwidth = UIScreen.main.bounds.width
+                let screenheight = UIScreen.main.bounds.height
+                newscene.size = CGSize(width: (screenwidth/screenheight)*1000, height: 1000)
+                
+                newscene.scaleMode = .aspectFit
+            
+                scene?.view!.presentScene(newscene, transition: reveal)
+                
             }
         }
         

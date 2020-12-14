@@ -13,6 +13,8 @@
 		AB3F97402582C2C700AF85E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3F973F2582C2C700AF85E7 /* Preview Assets.xcassets */; };
 		AB3F97492582C9BD00AF85E7 /* FancyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AB3F97482582C9BD00AF85E7 /* FancyScene.sks */; };
 		AB3F974C2582D19300AF85E7 /* GravityScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AB3F974B2582D19300AF85E7 /* GravityScene.sks */; };
+		ABF47EA92587694700F78CDB /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ABF47EA82587694700F78CDB /* MenuScene.sks */; };
+		ABF47EAC25876A0900F78CDB /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF47EAB25876A0900F78CDB /* MenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AB3F97412582C2C700AF85E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB3F97482582C9BD00AF85E7 /* FancyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FancyScene.sks; sourceTree = "<group>"; };
 		AB3F974B2582D19300AF85E7 /* GravityScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GravityScene.sks; sourceTree = "<group>"; };
+		ABF47EA82587694700F78CDB /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		ABF47EAB25876A0900F78CDB /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				AB3F97382582C2C400AF85E7 /* MySpritekitApp.swift */,
 				AB3F973A2582C2C400AF85E7 /* ContentView.swift */,
+				ABF47EAB25876A0900F78CDB /* MenuScene.swift */,
+				ABF47EA82587694700F78CDB /* MenuScene.sks */,
 				AB3F97482582C9BD00AF85E7 /* FancyScene.sks */,
 				AB3F974B2582D19300AF85E7 /* GravityScene.sks */,
 				AB3F973C2582C2C700AF85E7 /* Assets.xcassets */,
@@ -135,6 +141,7 @@
 				AB3F97402582C2C700AF85E7 /* Preview Assets.xcassets in Resources */,
 				AB3F973D2582C2C700AF85E7 /* Assets.xcassets in Resources */,
 				AB3F97492582C9BD00AF85E7 /* FancyScene.sks in Resources */,
+				ABF47EA92587694700F78CDB /* MenuScene.sks in Resources */,
 				AB3F974C2582D19300AF85E7 /* GravityScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF47EAC25876A0900F78CDB /* MenuScene.swift in Sources */,
 				AB3F973B2582C2C400AF85E7 /* ContentView.swift in Sources */,
 				AB3F97392582C2C400AF85E7 /* MySpritekitApp.swift in Sources */,
 			);
