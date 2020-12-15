@@ -46,6 +46,9 @@ struct ContentView_Previews: PreviewProvider {
 
 class GravityScene : SKScene
 {
+    var coins = 0
+    
+    /*
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         let thetouch = touches.first!
@@ -67,6 +70,7 @@ class GravityScene : SKScene
         }
         
     }
+    */
 }
 
 class GameScene : SKScene
@@ -143,6 +147,7 @@ class GameScene : SKScene
                 
                 
                 let newscene = GravityScene(fileNamed: "GravityScene")!
+                newscene.coins = 47
                 let screenwidth = UIScreen.main.bounds.width
                 let screenheight = UIScreen.main.bounds.height
                 newscene.size = CGSize(width: (screenwidth/screenheight)*1000, height: 1000)
